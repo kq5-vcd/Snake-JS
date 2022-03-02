@@ -1,0 +1,64 @@
+body {
+    background: rgb(189, 238, 156);
+}
+
+h1 {
+    color: teal;
+}
+
+.title {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#over {
+    color: red;
+    display: none;
+}
+
+#score-panel {
+    display: none;
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgb(89, 39, 206);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 25px;
+    height: 25px;
+    background-color: turquoise;
+}
+
+#buttons {
+    width: 420px;
+    height: 40px;
+    margin: 20px auto;
+    display: none;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+}
+
+.play {
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+}
+
+.snake {
+    background-color: #D040E0;
+}
+
+.food {
+    background-color: #E0D040;
+}
